@@ -3,7 +3,9 @@ import ReactDOM from 'react-dom/client';
 import Home from '../src/component/Home';
 import About from './component/About';
 import Education from './component/Education';
+import Projects from './component/Projects';
 import Contact from './component/Contact';
+
 
 
 
@@ -13,6 +15,7 @@ root.render(
     <Home />
     <About />
     <Education/>
+    <Projects/>
     <Contact/>
   </React.StrictMode>
 );

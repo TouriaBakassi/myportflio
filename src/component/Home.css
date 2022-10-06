@@ -2,8 +2,11 @@
   margin: 0;
   box-sizing: border-box;
 }
+body{
+ background-color: white;
+}
 .Home{
-  background: url(./intro-bg.jpg);
+   background: url(./intro-bg.jpg);
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
@@ -22,6 +25,7 @@
   flex-direction: column;
   width: 60rem;
   height: 100%;
+  margin-bottom: 2rem;
 }
 
 h1 {
@@ -93,7 +97,8 @@ nav ul li a:hover {
   justify-content: center;
   align-items: center;
   gap: 4rem;
-  margin-bottom: 1rem;
+  margin-bottom: 5rem;
+  /* padding-bottom: 5rem; */
 }
 
 i {
@@ -110,7 +115,8 @@ i:hover {
     padding: 0;
   }
  .particleheader{
-  width: 15rem;
+  width: 10rem;
+
   
  }
  .Home{
@@ -118,15 +124,15 @@ i:hover {
   margin: 0;
  }
  h1 {
-    font-size: 2rem;
+    font-size: 1rem;
     margin-top: 4rem;
     margin-left: 5rem;
   }
   h5 {
-    margin-left: 5rem;
+    margin-left: 0.5rem;
     font-size: 1.5rem;
    margin-bottom: 20rem;
-   margin-left: 1rem;
+   margin-left: 2rem;
    display: none;
   }
   
@@ -137,17 +143,22 @@ i:hover {
     left: 2rem;
   }
   nav {
-    visibility: hidden;
-    transform: translateX(-100%);
+    /* visibility: hidden; */
+    transform: translateY(-100%);
+    opacity: 0;
     transition: all 0.5s;
+    height: 30%;
+
   }
   .activebar {
-    visibility: visible;
-    margin-left: 4rem;
+    /* visibility: visible; */
+    /* margin-left: 4rem; */
     display: flex;
     flex-direction: column;
     justify-content: center;
-    transform: translateX(100%);
+    
+    opacity: 1;
+    transform: translateX(0);
     transition: all 0.5s ;
   }
 

@@ -13,9 +13,9 @@ class Home extends Component {
   render() {
     let { activeBar } = this.state;
     return (
-      <><ParticlesBackground />
+      <>
         <div className="Home" id="Home">
-          
+          <ParticlesBackground />
 
           <i
             onClick={() => {

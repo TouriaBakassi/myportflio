@@ -13,7 +13,7 @@ class Contact extends Component {
               officiis modi nemo quia ipsa! Perferendis placeat optio
               consequatur aliquid.
             </p>
-            <h4 className="tele">+(212) 659-72-11-77</h4>
+            <a href="tel:+212 659721177" className="tele"><h4>+(212) 659-72-11-77</h4></a>
           </div>
           <div className="form">
             <h2>Let's grab a coffee and jump on conversation <span> chat with me.</span></h2>
@@ -28,9 +28,9 @@ class Contact extends Component {
                 rows="10"
                 placeholder="Message"
               ></textarea>
-              <a href="#">
-                <button>SEND</button>
-              </a>
+              
+                <button><a href=" mailto: Touria_Bakassi@outlook.com"> SEND  </a></button>
+             
             </form>
           </div>
         </div>

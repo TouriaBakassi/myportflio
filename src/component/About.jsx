@@ -23,7 +23,7 @@ class About extends Component {
             laborum temporibus, debitis est accusamus.
             
           </p>
-         <a href="#Contact"> <button id="Contact">Let's Talk </button></a>
+         <a href="#contact"> <button id="Contact">Let's Talk </button></a>
         </div>
         </div>
       </>

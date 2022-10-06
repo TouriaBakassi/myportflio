@@ -75,3 +75,18 @@ width: 100%;
 height: 2px;
 background-color: gainsboro;
 }
+@media screen and(max-width: 650px) {
+.ABOUT{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+.image {
+    width: 100%;
+    
+}
+.Info{
+    width: 100%;
+}    
+}

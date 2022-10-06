@@ -12,7 +12,9 @@
     flex-direction: column;
     color: white;
     background: linear-gradient( black,gray);
+    
 }
+
 .EDUCATION h1{
     margin: 0;
     margin-bottom: 3rem;
@@ -60,4 +62,41 @@ background-color: red;
 border: none;
 padding: 1rem;
 color: white;
+}
+.totop{
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    width: 3rem;
+    height: 3rem;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   text-decoration: none;
+    animation: top 1.5s linear infinite;
+}
+.totop i{
+    color: red; 
+    font-size: 2rem;
+   
+    
+}
+  
+@keyframes top {
+    0%{
+      transform: translateY(0rem); 
+      opacity: 0.5; 
+    }
+    100%{
+      transform: translateY(-1rem); 
+      opacity: 1;
+    }
+}
+
+.totop i:hover{
+    color: gray; 
+    font-size: 2.1rem;
+  
 }
