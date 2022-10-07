@@ -16,7 +16,7 @@ class Education extends Component{
         <h2>Université Hassan II</h2>
         
     </div>
-    <p>Une experience de deux mois en developpement web parti Front-End.</p>
+    <p>Une experience de deux ans en sciences de la matiere chimie.</p>
 </div>
 <div className="Etude">
     <img className="img2" src={WA3} alt="" />
