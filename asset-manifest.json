@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/myportflio/static/css/main.34e0724d.css",
+    "main.js": "/myportflio/static/js/main.cdec596c.js",
+    "static/media/circleloader2.gif": "/myportflio/static/media/circleloader2.322b30424be12eb2eb14.gif",
+    "static/media/cuptea.png": "/myportflio/static/media/cuptea.2556df03a526dd6b01f4.png",
+    "static/media/intro-bg.jpg": "/myportflio/static/media/intro-bg.1a8c58441daedced6444.jpg",
+    "static/media/profile.jpg": "/myportflio/static/media/profile.b77a6c1ec43bf8bfa947.jpg",
+    "static/media/instagramclone.png": "/myportflio/static/media/instagramclone.5a1ec5ee3bbe57a4f4c4.png",
+    "static/media/UH2.png": "/myportflio/static/media/UH2.4d123710a8add3c23d45.png",
+    "static/media/Bootstrap.png": "/myportflio/static/media/Bootstrap.b747e2a185d754aeb925.png",
+    "static/media/Project1.png": "/myportflio/static/media/Project1.cc5961cb2c6ba38fcfe4.png",
+    "static/media/Todolist.png": "/myportflio/static/media/Todolist.cb682767bdec63f89b6d.png",
+    "static/media/3wa.png": "/myportflio/static/media/3wa.76c885f6318ce24b8cd9.png",
+    "static/media/Accordion.png": "/myportflio/static/media/Accordion.5d91eef85f9b57fb2f58.png",
+    "index.html": "/myportflio/index.html",
+    "main.34e0724d.css.map": "/myportflio/static/css/main.34e0724d.css.map",
+    "main.cdec596c.js.map": "/myportflio/static/js/main.cdec596c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.34e0724d.css",
+    "static/js/main.cdec596c.js"
+  ]
+}
