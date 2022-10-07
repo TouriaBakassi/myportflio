@@ -8,7 +8,7 @@
     flex-direction: column;
     color: white;
     background: linear-gradient( black,gray);
-    
+    padding: 30px;
 }
 
 .EDUCATION h1{

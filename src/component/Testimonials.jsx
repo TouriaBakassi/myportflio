@@ -9,6 +9,7 @@ class Testimonials extends Component {
           
           <div className="Quotes">
             <h1>Best Quotes That Made Me a Developper</h1>
+            <div className="qte">
             <div className="quote">
               <p>
                 "Learning to write programs stretches your mind, and helps you
@@ -31,6 +32,7 @@ class Testimonials extends Component {
                 using it wrong."
               </p>
               <span>- Germany Kent, American broadcaster</span>
+            </div>
             </div>
           </div>
         </div>

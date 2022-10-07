@@ -9,6 +9,7 @@
     align-items: center;
     margin: 0;
     border-top: 2px solid white;
+    padding: 20px;
 }
 .SayHi {
     width: 30%;

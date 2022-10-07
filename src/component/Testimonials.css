@@ -14,11 +14,21 @@ align-items: center;
 gap: 40px;
 padding: 40px;
 flex-wrap: wrap;
+flex-direction: column;
  }
  .Quotes h1{
     font-size: 40px;
     color: white;
     font-weight: 400;
+    display: block;
+ }
+ .qte{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 40px;
+    flex-wrap: wrap;
  }
 .quote{
    /* width: 30%;*/
