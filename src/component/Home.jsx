@@ -77,9 +77,9 @@ class Home extends Component {
 </div>
 <div className="social-media">
             <div className="line1"></div>
-            <i className="fa-brands fa-instagram"></i>
-            <i className="fa-brands fa-linkedin"></i>
-            <i className="fa-brands fa-square-facebook"></i>
+           <a href=""> <i className="fa-brands fa-instagram"></i></a>
+          <a href="https://ma.linkedin.com/in/touria-bakassi-292a94241">  <i className="fa-brands fa-linkedin"></i></a>
+            <a href=""><i className="fa-brands fa-square-facebook"></i></a>
             <div className="line2"></div>
           </div>
 
