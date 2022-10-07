@@ -1,16 +1,12 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
 .PROJECTS {
-  width: 100%;
-  height: 130vh;
+  /* width: 100%; */
+  /* height: 130vh; */
   background: radial-gradient(rgb(213, 0, 0), black);
 }
 .page-content {
-  width: 100%;
-  height: 60%;
+  /* width: 100%; */
+  /* height: 60%; */
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -19,7 +15,7 @@
   margin-bottom: 10rem;
 }
 .card {
-  width: 30%;
+  /* width: 30%; */
   position: relative;
   display: flex;
   justify-content: center;
@@ -95,3 +91,21 @@
   font-weight: 400;
 }
 
+@media screen and (max-width:800px) {
+  .PROJECTS{ 
+        flex-wrap: wrap;
+        padding: 20px;
+      }
+      /* .CONTACT{ } */
+      .page-content {
+          width: 100%;
+          margin: 0;
+          padding: 10px;
+          text-align: center;
+          gap: 15px 0;
+      } 
+      .title h1{
+        
+      }
+  
+  }
