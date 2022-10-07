@@ -1,11 +1,7 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 .EDUCATION{
-    width: 100%;
-    height: 110vh;
+    /* width: 100%; */
+    /* height: 110vh; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -100,3 +96,52 @@ color: white;
     font-size: 2.1rem;
   
 }
+
+@media screen and (max-width:800px) {
+    .EDUCATION{ 
+          flex-wrap: wrap;
+          padding: 20px;
+          flex-direction: column;
+        }
+        
+        .Etude {
+            /* width: 100%; */
+            margin: 0;
+            padding: 0px;
+            
+            text-align: center;
+            /* gap: 15px 0; */
+           flex-direction: column;
+           flex-wrap: wrap;
+           gap:25px;
+        } 
+        
+        .Etude p{
+            width: 15rem;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .Etude img{
+            width: 5rem;
+            height: 5rem;
+            /* margin-right: 3rem; */
+            filter:grayscale(100%);
+            opacity: 0.8;
+        }
+        .Etude .img2{
+            margin-right: 0;
+        }
+        
+        .Etude .title2{
+            margin-right: 0; 
+        }
+        .EDUCATION Button{
+            /* margin: 0.3rem ; */
+            margin-left: 0rem;
+        width: 15rem;
+        height: 3rem;
+        background-color: red;
+        border: none;
+        padding: 1rem;
+        color: white;
+        }
+    }

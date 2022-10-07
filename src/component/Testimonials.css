@@ -1,0 +1,57 @@
+
+.Testimonials{
+    box-sizing: border-box;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Quotes{
+    
+display: flex;
+justify-content: space-around;
+align-items: center;
+gap: 40px;
+padding: 40px;
+flex-wrap: wrap;
+ }
+ .Quotes h1{
+    font-size: 40px;
+    color: white;
+    font-weight: 400;
+ }
+.quote{
+   /* width: 30%;*/
+   min-height: 500px; 
+   flex: 1 0 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(184, 1, 1);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transform: translateY(0);
+    transition: all 0.5s ease-in;
+}
+.quote:hover{
+    transform: translateY(-10%);
+    color: rgb(184, 1, 1);
+    background-color: white;
+}
+.quote p{
+    font-size: 30px;
+    padding: 10px;
+}
+.quote span{
+    color: gainsboro;
+    font-size: 20px;
+}
+
+@media screen and (max-width:800px) {
+    .quote{
+        flex: 1 0 50%;
+    }
+}

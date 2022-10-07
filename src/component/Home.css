@@ -109,16 +109,53 @@ i {
 i:hover {
   color: rgb(205, 2, 2);
 }
+ 
+.MOUSE{
+  padding-bottom: 2rem;
+  
+}
+.mouse{
+  width: 1.5rem;
+  height: 3rem;
+  border: 2px solid white;
+  border-radius: 20px;
+  display: flex;
+}
+.mousewheel{
+  display: block;
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: white;
+  border-radius: 50%;
+  margin: auto;
+  animation: mouse 1.2s linear infinite;
+}
+@keyframes mouse {
+  0%{
+    opacity: 0;
+    transform: translateY(-1rem);
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(1rem);
+  }
+}
+
 @media screen and (max-width: 650px) {
   *{
     margin: 0;
     padding: 0;
   }
- .particleheader{
-  width: 10rem;
-
-  
- }
+  .particleheader {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    align-self: center;
+    flex-direction: column;
+    width: 60rem;
+    height: 100%;
+    margin-bottom: 2rem;
+  }
  .Home{
   width: 100%;
   margin: 0;
@@ -156,41 +193,19 @@ i:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+  align-self: center;
     opacity: 1;
-    transform: translateX(0);
+    transform: translateX(100%);
     transition: all 0.5s ;
+    margin-left: 4rem;
+  }
+  .social-media {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    gap: 4rem;
+    margin-bottom: 5rem;
+    /* padding-bottom: 5rem; */
   }
 
-
-} 
-.MOUSE{
-  padding-bottom: 2rem;
-  
-}
-.mouse{
-  width: 1.5rem;
-  height: 3rem;
-  border: 2px solid white;
-  border-radius: 20px;
-  display: flex;
-}
-.mousewheel{
-  display: block;
-  width: 0.5rem;
-  height: 0.5rem;
-  background-color: white;
-  border-radius: 50%;
-  margin: auto;
-  animation: mouse 1.2s linear infinite;
-}
-@keyframes mouse {
-  0%{
-    opacity: 0;
-    transform: translateY(-1rem);
-  }
-  100%{
-    opacity: 1;
-    transform: translateY(1rem);
-  }
 }

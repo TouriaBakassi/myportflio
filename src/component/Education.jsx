@@ -27,7 +27,7 @@ class Education extends Component{
     </div>
     <p>Une experience de deux mois en developpement web parti Front-End.</p>
 </div>
-<a href="https://touriabakassi.github.io/My-CV/" target="_blank"><button>DOWNLOAD RESUME</button></a>
+<a href="https://touriabakassi.github.io/My-CV/" target="_blank"><button>MORE DETAILS</button></a>
           <a href="#Home" className="totop"><i class="fa-solid fa-circle-chevron-up"></i></a>
           
             </div>

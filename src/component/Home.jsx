@@ -1,7 +1,7 @@
 import "./Home.css";
 import ParticlesBackground from "../components/ParticlesBackground";
 import { TypeAnimation } from "react-type-animation";
-import { Component, useState } from "react";
+import { Component } from "react";
 
 class Home extends Component {
   constructor(props) {
@@ -43,9 +43,9 @@ class Home extends Component {
               <li>
                 <a href="#Testimonials">Testimonials</a>
               </li>
-              <li>
+              {/* <li>
                 <a href="#Blog">Blog</a>
-              </li>
+              </li> */}
               <li>
                 <a href="#contact">Contact</a>
               </li>

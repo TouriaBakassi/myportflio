@@ -1,17 +1,14 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 .CONTACT{
     width: 100%;
-    height: 120vh;
+    /* height: 120vh; */
     background-color:black;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0;
+    border-top: 2px solid white;
 }
 .SayHi {
     width: 30%;
@@ -91,14 +88,24 @@ form button a{
 ::placeholder{
     color: rgb(213, 0, 0);
 }
-@media screen and(max-width:650px) {
-.CONTACT{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
+@media screen and (max-width:800px) {
+.CONTACT{ 
+      flex-wrap: wrap;
+      padding: 20px;
     }
-    
-
+    /* .CONTACT{ } */
+    .SayHi {
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+        text-align: center;
+        gap: 15px 0;
+    } 
+    .form{
+        width: 100%;
+        margin: 0;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
 
 }

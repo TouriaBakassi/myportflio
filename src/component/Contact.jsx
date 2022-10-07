@@ -7,11 +7,9 @@ class Contact extends Component {
       <>
         <div id="contact" className="CONTACT">
           <div  className="SayHi">
-            <h1>Contact</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut nisi,
-              officiis modi nemo quia ipsa! Perferendis placeat optio
-              consequatur aliquid.
+            <h1>Say Hi!</h1>
+            <p>" 
+            If you wanna get in touch, talk to me about a project collaboration or just Say Hi."
             </p>
             <a href="tel:+212 659721177" className="tele"><h4>+(212) 659-72-11-77</h4></a>
           </div>
