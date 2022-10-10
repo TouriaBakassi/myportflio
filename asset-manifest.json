@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/myportflio/static/css/main.34e0724d.css",
-    "main.js": "/myportflio/static/js/main.cdec596c.js",
+    "main.css": "/myportflio/static/css/main.fb7464f2.css",
+    "main.js": "/myportflio/static/js/main.5e0e068f.js",
     "static/media/circleloader2.gif": "/myportflio/static/media/circleloader2.322b30424be12eb2eb14.gif",
     "static/media/cuptea.png": "/myportflio/static/media/cuptea.2556df03a526dd6b01f4.png",
     "static/media/intro-bg.jpg": "/myportflio/static/media/intro-bg.1a8c58441daedced6444.jpg",
@@ -14,11 +14,11 @@
     "static/media/3wa.png": "/myportflio/static/media/3wa.76c885f6318ce24b8cd9.png",
     "static/media/Accordion.png": "/myportflio/static/media/Accordion.5d91eef85f9b57fb2f58.png",
     "index.html": "/myportflio/index.html",
-    "main.34e0724d.css.map": "/myportflio/static/css/main.34e0724d.css.map",
-    "main.cdec596c.js.map": "/myportflio/static/js/main.cdec596c.js.map"
+    "main.fb7464f2.css.map": "/myportflio/static/css/main.fb7464f2.css.map",
+    "main.5e0e068f.js.map": "/myportflio/static/js/main.5e0e068f.js.map"
   },
   "entrypoints": [
-    "static/css/main.34e0724d.css",
-    "static/js/main.cdec596c.js"
+    "static/css/main.fb7464f2.css",
+    "static/js/main.5e0e068f.js"
   ]
 }
