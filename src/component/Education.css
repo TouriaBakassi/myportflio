@@ -7,7 +7,8 @@
     align-items: center;
     flex-direction: column;
     color: white;
-    background: linear-gradient( black,gray);
+    /* background: linear-gradient( black,gray); */
+    background-color: black;
     padding: 30px;
 }
 
@@ -23,20 +24,22 @@
 display: flex;
 justify-content: space-between;
 align-items: center;
-gap: 10rem;
+gap: 10rem ;
 flex-direction: row;
 margin-bottom: 5rem;
 padding-bottom: 2rem;
 border-bottom: 2px solid white;
+
 }
 .Etude p{
     width: 15rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 5rem;
 }
 .Etude img{
     width: 5rem;
     height: 5rem;
-    margin-right: 3rem;
+    margin-right: 5rem;
     filter:grayscale(100%);
     opacity: 0.8;
 }
@@ -72,11 +75,13 @@ color: white;
     align-items: center;
    text-decoration: none;
     animation: top 1.5s linear infinite;
+    z-index: 1000;
+    
 }
 .totop i{
     color: red; 
     font-size: 2rem;
-   
+    
     
 }
   
@@ -94,19 +99,21 @@ color: white;
 .totop i:hover{
     color: gray; 
     font-size: 2.1rem;
-  
+ 
 }
 
 @media screen and (max-width:800px) {
     .EDUCATION{ 
           flex-wrap: wrap;
-          padding: 20px;
+          /* padding: 20px; */
           flex-direction: column;
+          align-content: center;
+margin: 0;
         }
         
         .Etude {
             /* width: 100%; */
-            margin: 0;
+            margin: 20px 0;
             padding: 0px;
             
             text-align: center;
@@ -119,6 +126,7 @@ color: white;
         .Etude p{
             width: 15rem;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: 20px 0;
         }
         .Etude img{
             width: 5rem;
@@ -126,6 +134,7 @@ color: white;
             /* margin-right: 3rem; */
             filter:grayscale(100%);
             opacity: 0.8;
+            margin: 20px 0;
         }
         .Etude .img2{
             margin-right: 0;
@@ -135,13 +144,14 @@ color: white;
             margin-right: 0; 
         }
         .EDUCATION Button{
-            /* margin: 0.3rem ; */
-            margin-left: 0rem;
-        width: 15rem;
-        height: 3rem;
-        background-color: red;
-        border: none;
-        padding: 1rem;
-        color: white;
+            margin-left: 0;
+            margin-top: 40px;
+       
+        }
+        .EDUCATION h1{
+            margin: 0;
+            margin-bottom: 3rem;
+            margin-right: 0;
+            
         }
     }

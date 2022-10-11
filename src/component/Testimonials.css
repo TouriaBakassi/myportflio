@@ -45,6 +45,7 @@ flex-direction: column;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     transform: translateY(0);
     transition: all 0.5s ease-in;
+    margin: 10px;
 }
 .quote:hover{
     transform: translateY(-10%);
@@ -56,12 +57,34 @@ flex-direction: column;
     padding: 10px;
 }
 .quote span{
-    color: gainsboro;
+    color: rgb(50, 50, 50);
     font-size: 20px;
 }
 
 @media screen and (max-width:800px) {
     .quote{
-        flex: 1 0 50%;
+        flex: 1 0 50%; 
+        min-height: 400px;
+        min-width: 250px;
+       margin-bottom: 10px;
+    }
+    .quote:hover{
+        transform: none;
+        
+    }
+    .Quotes h1{
+        font-size: 30px;
+        margin-left: 0;
+        font-size: 1.5rem;
+    font-weight: 200;
+    text-align: center;
+     }
+     .quote p{
+        font-size: 20px;
+        padding: 10px;
+    }
+    .quote span{
+       
+        font-size: 15px;
     }
 }

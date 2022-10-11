@@ -9,7 +9,7 @@
     align-items: center;
     margin: 0;
     border-top: 2px solid white;
-    padding-top: 30px;
+    padding-top: 80px;
 }
 .SayHi {
     width: 30%;
@@ -72,6 +72,7 @@ border-bottom: 2px solid white;
 }
 form button{
     margin: 2rem;
+    margin-left: 15rem;
 width: 10rem;
 height: 3rem;
 background-color: red;
@@ -87,7 +88,11 @@ form button a{
     color: white;
 }
 ::placeholder{
-    color: rgb(213, 0, 0);
+    /* color: rgb(213, 0, 0); */
+    color: gainsboro;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 @media screen and (max-width:800px) {
 .CONTACT{ 
@@ -103,10 +108,25 @@ form button a{
         gap: 15px 0;
     } 
     .form{
-        width: 100%;
         margin: 0;
-        text-align: center;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      margin-top: 40px;
+      width: 100%;
     }
-
+    .form h2{
+        
+        font-size:25px;
+        font-weight: 200;
+        padding: 20px 0;
+        text-align: center;
+    }
+    form button{
+        margin: 2rem 0;
+    margin-left: 5rem;
+    width: 10rem;
+    height: 3rem;
+    background-color: red;
+    border: none;
+    font-size: 1rem;
+    color: white;
+    }
 }

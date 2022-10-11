@@ -8,6 +8,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding:  30px 70px;
 }
 .image {
     /* width: 50%; */
@@ -16,10 +17,12 @@
     
 }
 .image img{
-    width: 80%;
-    height: 80%;   border-radius: 20px 60px;
+    width: 15rem;
+    height: 20rem;   border-radius: 20px 60px;
     box-shadow: 8px 8px 8px gainsboro;
+
 }
+
 .image:hover img{
     transform: scale(1.15);
 }
@@ -80,10 +83,10 @@ background-color: gainsboro;
         
         .image {
             width: 100%;
-            margin: 0;
+            margin: 10px 0;
             padding: 10px;
             text-align: center;
-            gap: 15px 0;
+            gap: 15px 0; margin-bottom: 20px;
         } 
         .Info{
             width: 100%;
@@ -91,5 +94,11 @@ background-color: gainsboro;
             text-align: center;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
         }
-    
+        .Info h3:hover{
+            background-size: 90%;
+        }
+        .image:hover img{
+            transform: scale(1.15);
+           
+        }
     }

@@ -15,7 +15,7 @@ function Hello(){
   useEffect(()=>{
     setTimeout(()=>{
       setLoader(false);
-    },2000)
+    },4000)
   },[])
   return loader?
   ( 
